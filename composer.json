@@ -1,0 +1,12 @@
+{
+    "name": "claudiozizza/composer-tests",
+    "type": "project",
+    "require": {
+        "symfony/yaml": "^3.3"
+    },
+    "autoload": {
+        "psr-4": { "": "." },
+        "classmap": ["vendor2/Yaml.php"]
+    },
+    "license": "MIT"
+}
